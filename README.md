@@ -1,7 +1,7 @@
 # rubiks
 
 yoo
-https://kyanoboi.github.io/rubiks/Rubikscube/Index.html
+https://kyanoboi.github.io/rubiks/RubiksCube/Index.html
 
 
 
