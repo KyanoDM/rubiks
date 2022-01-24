@@ -1,4 +1,6 @@
 # rubiks
 
 yoo
-https://kyanoboi.github.io/rubiks/ 
+https://kyanoboi.github.io/rubiks/Rubikscube/Index.html
+
+
