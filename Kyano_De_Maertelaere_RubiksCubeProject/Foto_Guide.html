@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> RubiksCubeSolver </title>
+		<link rel="shortcut icon" type="image/png" href="img/icon.png">
+		<link rel="stylesheet" type="text/css" href="CSS/Style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header id=header> RubiksCubeSolver</header>
+		<nav>
+			<a href="Home.html"> Home </a>
+			&nbsp;
+			<a href="Foto_Guide.html">Foto Guide</a>
+			&nbsp;
+			<a href="Video_Guide.html">Video Guide</a>
+			&nbsp;
+			<a href="About.html">About</a>
+		</nav> 
+		<article class=Title>  <h1>--- Basics ---</h1> </article>
+		<article class=fotoguide> 
+			<div> <h2> De rotaties </h2></div>
+			<br>
+			<img src="img/basicsfoto.png"class=basics>
+			<div> <h2>Belangerijke algoritmes </h2> </div>
+			<br>
+			Deze algoritmes zijn zeer belangerijk,<br> oefen deze een paar keer zodat je deze snel kan uitvoeren.
+			<br>
+			<br> Het rechter algoritme: R U R' U'
+			<br> Het linker algoritme: L' U' L U
+			<div>
+				<br4>
+				<br>
+				<br>
+				<h2> Hoofdstukken </h2>
+			</div>
+			<br>
+			<div class="card">
+				<br>
+				<a href="#FirstLayer">
+					<img src="img/1Layers.jpg" alt="First Layer"  class=cardfoto>
+					<h4><b>  Eerste Laag </b></h4>  
+				</a>
+			</div>
+			<div class="card">
+				<br>
+				<a href="#SecondLayer">
+					<img src="img/2Layers.jpg" alt="Second Layer"  class=cardfoto>
+					<h4><b>  Tweede Laag</b></h4> 
+				</a> 
+			</div>
+			<div class="card">
+				<br>
+				<a href="#ThirdLayer">
+					<img src="img/3Layers.jpg" alt="Third Layer" class=cardfoto>
+					<h4><b>  Derde Laag </b></h4>  
+				</a>
+			</div>
+		</article> 
+		<article class=Title id="FirstLayer"><h1> --- Eerste laag --- </h1></article>
+		<article class=eerstelaag> 
+			<br>
+			<br>
+			<div class="card1">
+				<br>
+					<img src="img/witkruis.jpg" alt="Wit Kruis"  class=cardfoto>
+					<h4><b>  Wit Kruis </b></h4>  
+			</div>
+			
+			<br><br><br><br><br>
+			<div class=tekstgebied1> 
+				<br> <br> <br> <br> <br> 
+				De eerste stap is het wit kruis maken. Zorg ervoor dat het middelste witte blokje
+				<br> zich aan de bovenkant bevind. Daarna zal je de zijkanten van het kruis moeten zoeken
+				<br> en ze naast het middelste witte blokje zetten. wat zeer belangerijk is, is dat de zijkanten
+				<br> van het witte blokje de zelvde kleur hebben als het middelste blokje van de zijkanten.
+			</div>
+				<div class="card2">
+					<br>
+						<img src="img/hoeken1.jpg" alt="hoeken1"  class=cardfoto>
+						<h4><b>  Hoek 1 </b></h4>  
+				</div>
+				<div class=tekstgebied2>
+					<br> <br> <br> <br> 
+					De tweede stap is de hoeken op de juiste plek krijgen.
+					<br> Als eerste draai je je kubus om zodat het middelste blokje geel is.
+					<br> Daarna zoek je een blokje met 1 witte zijkant, en plaats je deze boven 
+					<br> een hoek met de juiste kleuren (zie foto). Er zijn 5 verschillende mogelijkheden.
+					<br> Als je deze hoek hebt dan hou je het blokje dat je
+					<br> wil verplaatsen rechts boven en doe je het rechter 
+					<a class="tooltip" href="">
+						algoritme
+						<span><img src="img/basicsfoto.png">
+						</span>
+					 </a>
+					  1 keer:
+					<br> R U R' U'
+				</div>
+				<div class="card3">
+					<br>
+						<img src="img/hoeken2.jpg" alt="hoeken2"  class=cardfoto>
+						<h4><b>  Hoek 2 </b></h4>  
+				</div>
+				
+				<br><br><br><br><br>
+				<div class=tekstgebied3> 
+					<br> <br> <br> <br> <br> 
+					Bij deze hoek is het blokje omgedraaid. Om deze op te lossen moet je je volledige 
+					<br>kubus naar links draaien zodat het witte vlakje links van je zit. daarna doe je 
+					<br>het linker
+					<a class="tooltip" href="">
+						algoritme
+						<span><img src="img/basicsfoto.png">
+						</span>
+					 </a>  
+					 1 keer:
+					<br>L' U' L U
+				</div>
+
+				<div class="card4">
+					<br>
+						<img src="img/hoeken3.jpg" alt="Hoeken3"  class=cardfoto>
+						<h4><b>  Hoek 3 </b></h4>  
+				</div>
+				<div class=tekstgebied4>
+					<br> <br> <br> <br> <br> 
+					Bij deze hoek zit de witte kant naar boven. Dit is bijna precies hetzelvde als de vorige 
+					<br>hoek, wat je eerst doet is hem eerst omdraaien en daarna het rechter 
+					<a class="tooltip" href="">
+						algoritme
+						<span><img src="img/basicsfoto.png">
+						</span>
+					 </a>
+					doen.
+					<br>je zorgt ervoor dat het blokje met de witte kant in de rechterbovenkant is en dan doe je:
+					<br>R U U R' U' R U R'
+					<br>
+				</div>
+
+				<div class="card5">
+					<br>
+						<img src="img/hoeken4.jpg" alt="hoeken4"  class=cardfoto>
+						<h4><b>  Hoek 4 </b></h4>  
+				</div>
+				
+				<br><br><br><br><br>
+				<div class=tekstgebied5> 
+					<br> <br> <br> <br> 
+					Bij deze hoek zit het blokje al op de juiste plaats, maar is niet goed gedraait. dus we zullen 
+					<br>deze er uit moeten halen en opnieuw in steken met de juiste rotatie. 
+					<br>als het witte vlak zoals op de foto zit, dan doe je 2 keer het rechter 
+					<a class="tooltip" href="">
+						algoritme:
+						<span><img src="img/basicsfoto.png">
+						</span>
+					 </a> 
+					<br>R U R' U' x2
+					<br> als het witte vlak aan de linker kant zit draai je je volledige kubus naar links
+					<br> zodat het witte vlak links zit, daarna doe je het linker 
+					<a class="tooltip" href="">
+						algoritme
+						<span><img src="img/basicsfoto.png">
+						</span>
+					 </a> 
+					 2 keer.
+					<br>L' U' L U x2
+				</div>
+		</article>
+		<article class=Title id="SecondLayer"><h1> --- Tweede laag --- </h1></article>
+		<article class=tweedelaag> 
+			<div class="card6">
+				<br>
+					<img src="img/layer2-1.jpg" alt="layer2-1"  class=cardfoto>
+					<h4><b>  1 </b></h4>  
+			</div>
+			<br><br><br><br><br>
+			<div class=tekstgebied6> 
+				<br><br>
+				Voor de hoeken in de tweede laag te krijgen moet je goed kijken naar de kleuren. 
+				<br> bij de foto zie jeeen blokje met blauw en oranje,  als je naar dit voorbeeld 
+				<br> kijkt moet je het oranje blokje links van het oranje midden houden, en de blauwe 
+				<br> bovenkant aan de andere kant van het blauwe midden houden.dus de bovenkant 
+				<br> (in dit geval blauw) moet aan de andere kant van het blauwe midden. 
+				<br>
+				<br> als je het blokje aan de juist kant hebt gezet doe je in dit geval, 
+				<br> (als het blokje links is van waar hij moet staan is) dan hou je de 
+				<br> oranje kant voor je en doe je het volgende 
+				<a class="tooltip" href="">
+					algoritme:
+					<span><img src="img/basicsfoto.png">
+					</span>
+				 </a> 
+				 <br> R U R' U' Daarna draai je je kubus naar rechts, en doe je: L' U' L
+			</div>
+				<div class="card7">
+					<br>
+						<img src="img/layer2-2.jpg" alt="layer2-2"  class=cardfoto>
+						<h4><b>  2 </b></h4>  
+				</div>
+				<div class=tekstgebied7>
+					<br><br><br><br><br>
+					 als het blokje rechts zit van (in dit geval) oranje midden doe je precies
+					 <br>hetzelvde maar omgekeerd. volg het volgende  
+					 <a class="tooltip" href="">
+						algoritme:
+						<span><img src="img/basicsfoto.png">
+						</span>
+					 </a> 
+					 <br> L' U' L U dan draaje je je kubus naar rechts zodat het 
+					 <br>vlak waar je net naar keek rechts zit en dan doe je: 
+					 <br>R U R'
+				</div>
+				<div class="card8">
+					<br>
+						<img src="img/layer2-3.jpg" alt="layer2-1"  class=cardfoto>
+						<h4><b>  3 </b></h4>  
+				</div>
+				<br><br><br><br><br>
+				<div class=tekstgebied8> 
+					<br><br><br><br>
+					Bij de laatste zit het blokje al op de juiste plek, maar is hij niet goed gedraait. 
+					<br>Stap 1 is hem er uit doen, dat doe je met dit 
+					<a class="tooltip" href="">
+						algoritme:
+						<span><img src="img/basicsfoto.png">
+						</span>
+					 </a> 
+					<br>R U R' U' Draai hierna je kubus naar rechts en doe dit algoritme:
+					<br>L' U' L Hierna draai je je kubus weer naar links, en doe je het algoritme nog 1 keer. 
+					<br>dus: R U R' U' draai je kubus naar rechts en L' U' L
+				</div>
+		</article>
+		<article class=Title id="ThirdLayer"><h1> --- Derde laag --- </h1></article>
+		<article class=derdelaag> 
+			<div class="card9">
+				<br>
+					<img src="img/geelkruis.jpg" alt="geelkruis"  class=cardfoto>
+					<h4><b>  Geel Kruis 1 </b></h4>  
+			</div>
+			<br><br><br><br><br>
+			<div class=tekstgebied9> 
+				<br><br><br><br><br><br>
+				Voor de 3e Laag moet je beginnen met een geel kruis te maken. Je kan geluk hebben en  
+				<br>al een geel kruis hebben, dan kan je deze stappen overslaan. Er zijn 3 mogelijkheden, 
+				<br>een hoek, een punt, of een streep.
+
+			</div>
+				<div class="card10">
+					<br>
+						<img src="img/geelhoek.jpg" alt="geelhoek"  class=cardfoto>
+						<h4><b>  Geel Kruis 2 </b></h4>  
+				</div>
+				<div class=tekstgebied10>
+					<br><br><br><br><br><br>
+					Als je een hoek hebt zoals op de foto, dan hou je de hoek rechts zodat één kant van de 
+					<br>hoek aan jou kant is, en één rechts is. Dan hou je de achterste laag vast en draai 
+					<br>je de 2 voorste lagen naar rechts. Dan doe je het rechter 
+					<a class="tooltip" href="">
+						algoritme:
+						<span><img src="img/basicsfoto.png">
+						</span>
+					 </a> 
+					 <br>R U R' U'
+				</div>
+				<div class="card11">
+					<br>
+						<img src="img/geelpunt.jpg" alt="geelpunt"  class=cardfoto>
+						<h4><b>  Geel Kruis 3 </b></h4>  
+				</div>
+				<br><br><br><br><br>
+				<div class=tekstgebied11> 
+					<br><br><br><br><br>
+					Als je alleen een geel midden hebt dan hou je de achterste laag vast, draai je de eerste 
+					<br>2 lagen naar rechts. Daarna kies je een willekeurige kant en doe je het rechter 
+					<a class="tooltip" href="">
+						algoritme:
+						<span><img src="img/basicsfoto.png">
+						</span>
+					 </a> 
+					 <br> R U R' U'
+				</div>
+				<div class="card12">
+					<br>
+						<img src="img/geelstreep.jpg" alt="geelstreep"  class=cardfoto>
+						<h4><b>  Geel Kruis 4 </b></h4>  
+				</div>
+				<div class=tekstgebied12>
+					<br><br><br><br><br>
+					Als je een Streep hebt, hou je de streep horiozontaal (zoals op de foto), daarna 
+					<br>hou je de achterste 2 lagen vast, en draai je de eerste laag naar rechts en dan 
+					<br>doe je als laatste het rechter 
+					 <br>R U R' U'
+				</div>
+				<div class="card13">
+					<br>
+						<img src="img/zijkantgeelkruis.jpg" alt="geelpunt"  class=cardfoto>
+						<h4><b>  Zijkant Geel Kruis </b></h4>  
+				</div>
+				<br><br><br><br><br>
+				<div class=tekstgebied13> 
+					<br><br>
+					Nu dat je het geel kruis hebt, moet je de zijkanten van het kruis gelijk maken met het 
+					<br> kleur die er onder zit. De eerste stap is om je kruis rond te draaien tot er 2 kleuren
+					<br> goed zitten. Als dit is gelukt zijn er 3 mogelijkheden:
+					<br> 1. Alle keuren zitten goed, Als je dit hebt sla je de volgende stappen over.
+					<br> 2. 2 kleuren zitten goed, deze zitten over elkaar, als je dit hebt doe je het volgende 
+					<a class="tooltip" href="">
+						algoritme:
+						<span><img src="img/basicsfoto.png">
+						</span>
+					 </a> 
+					 <br> R U R' U  &nbsp; &nbsp; R U' U' R'
+					 <br>
+					 <br> 3. 2 kleuren zitten goed, deze zitten naast elkaar, als je dit hebt dan hou je 1 juist 
+					 <br> kleur voor je, en één rechts van jou, dan doe je het volgende 
+					 <a class="tooltip" href="">
+						algoritme:
+						<span><img src="img/basicsfoto.png">
+						</span>
+					 </a> 
+					 <br> R U R' U  &nbsp; &nbsp; R U' U' R'
+				</div>
+				<div class="card14">
+					<br>
+					<div class="slideshow-container">
+						<div class="mySlides fade">
+						  <img src="img/3eLaagHoek1.jpg" class=cardfoto>
+						</div>
+						<div class="mySlides fade">
+						  <img src="img/3eLaagHoek2.jpg" class=cardfoto>
+						</div>
+						</div>
+						<br>
+						<div style="text-align:center">
+						  <span class="dot"></span> 
+						  <span class="dot"></span> 
+						</div>
+				</div>
+				<script src="js/myscript.js"></script>
+
+				<div class=tekstgebied14>
+					<br><br>
+					De volgende stap is om de hoeken op de juiste plek te krijgen, zoals je kan zien op de ene foto, 
+					<br> de kleuren zijn goed, hij is alleen niet goed gedraait. Er zijn weer 3 mogelijkheden:
+					<br> 1. Alle blokjes zitten goed, dan kan je deze stap overslaan.
+					<br> 2. 1 blokje zit goed, dan zorg je ervoor dat deze rechts vooraan 
+					<br> zit en doe je het volgende 
+					<a class="tooltip" href="">
+						algoritme:
+						<span><img src="img/basicsfoto.png">
+						</span>
+					 </a> 
+					 <br> U R U' R'  &nbsp; &nbsp; U R' U' R'
+					 <br>
+					 <br> 3. 0 blokjes zitten goed, dan doe je het volgende
+					 <a class="tooltip" href="">
+						algoritme
+						<span><img src="img/basicsfoto.png">
+						</span>
+					 </a> 
+					 van een kant naar keuze:
+					 <br> U R U' R'  &nbsp; &nbsp; U R' U' R'
+				</div>
+				<div class="card15">
+					<br>
+						<img src="img/laatstestap.jpg" alt="geelpunt"  class=cardfoto>
+						<h4><b>  Laatste Stap </b></h4>  
+				</div>
+				<br><br><br><br><br><br>
+				<div class=tekstgebied15> 
+					<br><br>
+					De laatste stap naar succes is om de blokjes om te draaien. 
+					<br> Eerst en vooral draai je je kubus weer om zodat wit aan de bovenkant zit.
+					<br>
+					<br> Daarna zorg je ervoor dat een blokje die nog gedraait moet worden rechts onderaan
+					<br> zit. Dan doe je het rechter 
+					<a class="tooltip" href="">
+						algoritme
+						<span><img src="img/basicsfoto.png">
+						</span>
+					 </a> 
+					 tot het blokje goed gedraait is, je moet dit meestal 
+					 <br> 2 of 4 keer doen.  Als het blokje goed gedraait is draai je de onderste laag naar 
+					 <br> links of rechts tot je een blokje tegen komt die nog niet goed gedraait is en 
+					 <br> doe je weeral het rechter
+					 <a class="tooltip" href="">
+						algoritme.
+						<span><img src="img/basicsfoto.png">
+						</span>
+					 </a> 
+					dit doe je tot de kubus gemaakt is.
+				</div>
+				<div class="card16">
+					<br>
+						<img src="img/3Layers.jpg" alt="geelstreep"  class=cardfoto>
+						<h4><b>  Einde </b></h4>  
+				</div>
+				<div class=tekstgebied16>
+					<br><br><br><br><br><br>
+					Dit is hoe je de rubiks cube maakt! 
+				</div>
+		</article>
+		<div class=backup> 
+			<a href="#header">Ga terug omhoog<a>
+		</div>
+		<footer> </br> &copy Kyano De Maertelaere - 5INFB </footer>
+	</body> 
+</html>
