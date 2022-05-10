@@ -1,7 +1,7 @@
 # rubiks
 
 yoo
-https://kyanoboi.github.io/rubiks/RubiksCubeProject/Home.html
+https://kyanoboi.github.io/rubiks/Kyano_De_Maertelaere_RubiksCubeProject/Home.html
 
 
 
